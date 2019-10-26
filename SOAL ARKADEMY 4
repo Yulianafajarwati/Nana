@@ -1,0 +1,12 @@
+<?php
+function tampil(){
+    echo"{name: 'Movie',info: 'category_name'},";
+    echo"{name: 'Interstellar',info: 'category_data'},";
+    echo"{name: 'Dark Knight',info: 'category_data'},";
+    echo"{name: 'Music',info: 'category_name'},";
+    echo"{name: 'Adams',info: 'category_data'},";
+    echo"{name: 'Nirvana',info: 'category_data'},";
+    
+}
+tampil();
+?>
