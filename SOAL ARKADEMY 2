@@ -1,0 +1,18 @@
+<?php
+function isAcceptedNama($nama) {
+    function isAcceptedUmur($umur) {
+    function isAcceptedUsername($username) {
+    return preg_match("_" /".", $username); {
+    }
+    }
+}
+if (isAcceptedNama("Nana")){
+    echo "Nama Is Valid";
+if (isAcceptedUmur("22"))
+echo "Umur Is Valid";
+if (isAcceptedUsername("Nana_18"))
+echo "Username Is Valid";
+} else {
+    echo "Username Is Invalid";
+}
+?>
